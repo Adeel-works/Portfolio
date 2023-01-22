@@ -1,9 +1,9 @@
 import self from "../img/photo.png"
-import mock1 from "../img/mocks.jpg"
-import mock2 from "../img/mock2.png"
-import mock3 from "../img/mock3.png"
-import mock4 from "../img/mock4.png"
-import mock5 from "../img/mock5.png"
+// import mock2 from "../img/mock1.png"
+import mock9 from '../img/mock9.svg';
+import graana from '../img/graana.svg';
+import dagtalah from '../img/dagtalah.svg';
+import worklics from '../img/worklics.svg';
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -46,12 +46,12 @@ export const info = {
     ],
     socials: [
         {
-            link: "https://github.com",
+            link: "https://github.com/Adeel-works",
             icon: "fa fa-github",
             label: 'github'
         },
         {
-            link: "https://linkedin.com",
+            link: "https://www.linkedin.com/in/adeel-mirza101",
             icon: "fa fa-linkedin",
             label: 'linkedin'
         },
@@ -59,7 +59,7 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Greetings! I'm Adeel. I'm a senior software engineer at codeninja consultings. I studied bscs at ucp, I think there's a fine line between a developer and an engineer, Thats why you should hire me !!",
+    bio: "Greetings! I'm Adeel. I'm a senior software engineer at codeninja consultings. I have been developing solutions for most of my youth and over the years I have learned that there's a fine line between a developer and an engineer, Thats why you should hire me !!",
     skills:
         {
             proficientWith: ['javascript', 'react','react-native','vue','firebase','git', 'github', 'bootstrap', 'html5', 'css3', ],
@@ -84,34 +84,28 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Graana",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: mock1
-        },
-        {
             title: "Funoonee",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock2
+            desc:"Funoonee is an unrivaled online marketplace connecting home maintenance and handyman service providers and users in Riyadh, Al Damam, Jeddah, and Taif. We are recognized as the most trustworthy online platform to the people of these cities. With our determination and dedication, we have won thousands of hearts in these cities over the years and are expanding to other cities of Pakistan",
+            live: "https://funoonee.com/",
+            image: mock9
         },
         {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock3
+            title: "Graana",
+            desc:"Graana is set to change the conventional real estate industry of Pakistan into a modern, transparent, and data-driven RE industry. Safety, security and transparency are synonymous to Graana. With the help of Graana app, you can buy, rent, sell, and rent out your property.",
+            live: "https://www.graana.com/",
+            image: graana
         },
         {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock4
+            title: "Dagtalah Admin",
+            desc:"Dagtalah is an e-commerce store based in UAE. The admin panel is used to monitor and add new stores under dagtalah. Managing their invoices and adding new modules based on the store's functionality and vision. We can also add new features based on requirements for the store. The admin panel also provides a free drag drop ui for creating invoices and updating the visuals as per need. ",
+            live: "https://admin.dagtalah.com",
+            image: dagtalah
         },
         {
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock5
-        }
+            title: "Worklics",
+            desc:"Worklics is an all in one employee management application that allows an organization to manage their employees and track their time, along with their teams. The feature to allow the teams to work from any where (from a requested location) with the approval of the managers makes it a complete package.",
+            live: "https://emp.codeninjaconsulting.com",
+            image: worklics
+        },
     ]
 }
