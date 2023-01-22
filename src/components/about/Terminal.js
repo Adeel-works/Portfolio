@@ -21,7 +21,7 @@ function Terminal(props) {
               sx={{backgroundColor: '#27242f'}} fontSize={'1.5rem'} fontFamily={'Courier New, Courier, monospace'}>
             {text}
          </Box> 
-      </Box>
+      </Box> 
    );
 }
 
