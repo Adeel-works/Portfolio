@@ -25,4 +25,4 @@ function Terminal(props) {
    );
 }
 
-export default Terminal;
+export default Terminal; 
